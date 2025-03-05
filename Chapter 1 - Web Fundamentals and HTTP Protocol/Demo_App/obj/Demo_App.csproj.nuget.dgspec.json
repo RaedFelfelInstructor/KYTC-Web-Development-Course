@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1\\Demo_App\\Demo_App.csproj": {}
+    "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1 - Web Fundamentals and HTTP Protocol\\Demo_App\\Demo_App.csproj": {}
   },
   "projects": {
-    "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1\\Demo_App\\Demo_App.csproj": {
+    "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1 - Web Fundamentals and HTTP Protocol\\Demo_App\\Demo_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1\\Demo_App\\Demo_App.csproj",
+        "projectUniqueName": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1 - Web Fundamentals and HTTP Protocol\\Demo_App\\Demo_App.csproj",
         "projectName": "Demo_App",
-        "projectPath": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1\\Demo_App\\Demo_App.csproj",
+        "projectPath": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1 - Web Fundamentals and HTTP Protocol\\Demo_App\\Demo_App.csproj",
         "packagesPath": "C:\\Users\\Raed Felfel\\.nuget\\packages\\",
-        "outputPath": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1\\Demo_App\\obj\\",
+        "outputPath": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1 - Web Fundamentals and HTTP Protocol\\Demo_App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"

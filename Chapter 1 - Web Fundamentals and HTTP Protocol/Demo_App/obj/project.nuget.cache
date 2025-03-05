@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WnspQvG4MOo=",
+  "dgSpecHash": "mopAIhUKm0E=",
   "success": true,
-  "projectFilePath": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1\\Demo_App\\Demo_App.csproj",
+  "projectFilePath": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1 - Web Fundamentals and HTTP Protocol\\Demo_App\\Demo_App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Raed Felfel\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Raed Felfel\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
