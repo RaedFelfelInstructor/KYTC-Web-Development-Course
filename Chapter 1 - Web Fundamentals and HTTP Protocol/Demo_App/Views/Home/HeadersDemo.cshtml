@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "HTTP Headers Demo";
+}
+
+<h2>HTTP Headers Demonstration</h2>
+
+<div class="alert alert-info">
+    <p>This page demonstrates HTTP headers in both requests and responses</p>
+</div>
+
+<div class="card border-primary mb-4">
+    <div class="card-header bg-primary text-white">
+        <h3 class="card-title">Request Headers</h3>
+    </div>
+    <div class="card-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Header Name</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var header in ViewBag.RequestHeaders)
+                {
+                    <tr>
+                        <td>@header.Key</td>
+                        <td>@header.Value</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="card border-success mb-4">
+    <div class="card-header bg-success text-white">
+        <h3 class="card-title">Response Headers</h3>
+    </div>
+    <div class="card-body">
+        <p>This response includes custom headers:</p>
+        <ul>
+            <li><strong>X-Demo-Header:</strong> "Hello from ASP.NET Core"</li>
+            <li><strong>X-Server-Time:</strong> Current server timestamp</li>
+        </ul>
+        <p>You can view these headers in your browser's developer tools network tab</p>
+    </div>
+</div>
+
+<p>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Back to Demo Home</a>
+</p>

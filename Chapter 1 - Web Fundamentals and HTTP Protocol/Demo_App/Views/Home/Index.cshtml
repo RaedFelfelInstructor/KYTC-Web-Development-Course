@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "HTTP Request Demo";
+}
+
+<h2>HTTP Request Information</h2>
+
+<div class="card border-primary mb-4">
+    <div class="card-header bg-primary text-white">
+        <h3 class="card-title">Current Request Details</h3>
+    </div>
+    <div class="card-body">
+        <p><strong>HTTP Method:</strong> @ViewBag.Method</p>
+        <p><strong>User Agent:</strong> @ViewBag.UserAgent</p>
+        <p><strong>Path:</strong> @ViewBag.Path</p>
+        <p><strong>Query String:</strong> @ViewBag.QueryString</p>
+    </div>
+</div>
+
+<h3>HTTP Demonstrations</h3>
+<div class="list-group mb-4">
+    <a asp-controller="Home" asp-action="GetDemo" asp-route-name="TestUser" asp-route-id="123" class="list-group-item list-group-item-action">
+        <h4 class="list-group-item-heading">GET with Parameters</h4>
+        <p class="list-group-item-text">Demonstrates GET request with query parameters</p>
+    </a>
+    <a asp-controller="Home" asp-action="PostForm" class="list-group-item list-group-item-action">
+        <h4 class="list-group-item-heading">POST Form Demo</h4>
+        <p class="list-group-item-text">Demonstrates a form submission with POST method</p>
+    </a>
+    <a asp-controller="Home" asp-action="JsonDemo" class="list-group-item list-group-item-action">
+        <h4 class="list-group-item-heading">JSON Response Demo</h4>
+        <p class="list-group-item-text">Demonstrates different content types (application/json)</p>
+    </a>
+    <a asp-controller="Home" asp-action="HeadersDemo" class="list-group-item list-group-item-action">
+        <h4 class="list-group-item-heading">HTTP Headers Demo</h4>
+        <p class="list-group-item-text">Shows request headers and custom response headers</p>
+    </a>
+    <a asp-controller="Home" asp-action="RedirectDemo" class="list-group-item list-group-item-action">
+        <h4 class="list-group-item-heading">Redirect (302) Demo</h4>
+        <p class="list-group-item-text">Demonstrates HTTP redirection</p>
+    </a>
+</div>
+
+<h3>HTTP Status Codes</h3>
+<div class="list-group">
+    <a asp-controller="Home" asp-action="StatusCodes" asp-route-code="200" class="list-group-item list-group-item-action">
+        <h4 class="list-group-item-heading">200 OK</h4>
+        <p class="list-group-item-text">Standard successful response</p>
+    </a>
+    <a asp-controller="Home" asp-action="StatusCodes" asp-route-code="404" class="list-group-item list-group-item-action">
+        <h4 class="list-group-item-heading">404 Not Found</h4>
+        <p class="list-group-item-text">Resource not found error</p>
+    </a>
+    <a asp-controller="Home" asp-action="StatusCodes" asp-route-code="400" class="list-group-item list-group-item-action">
+        <h4 class="list-group-item-heading">400 Bad Request</h4>
+        <p class="list-group-item-text">Client sent an invalid request</p>
+    </a>
+    <a asp-controller="Home" asp-action="StatusCodes" asp-route-code="500" class="list-group-item list-group-item-action">
+        <h4 class="list-group-item-heading">500 Internal Server Error</h4>
+        <p class="list-group-item-text">Server-side error occurred</p>
+    </a>
+</div>

@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "POST Result";
+}
+
+<h2>POST Form Submission Result</h2>
+
+<div class="alert alert-success">
+    <p>Your form has been successfully submitted using the POST method</p>
+</div>
+
+<div class="card border-primary mb-4">
+    <div class="card-header bg-primary text-white">
+        <h3 class="card-title">Submitted Data</h3>
+    </div>
+    <div class="card-body">
+        <p><strong>HTTP Method:</strong> @ViewBag.Method</p>
+        <p><strong>Username:</strong> @ViewBag.Username</p>
+        <p><strong>Email:</strong> @ViewBag.Email</p>
+    </div>
+</div>
+
+<p>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Back to Demo Home</a>
+    <a asp-controller="Home" asp-action="PostForm" class="btn btn-primary">Submit Another Form</a>
+</p>

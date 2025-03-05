@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "GET Method Demo";
+}
+
+<h2>GET Method Demonstration</h2>
+
+<div class="alert alert-info">
+    <p>This page demonstrates a GET request with parameters passed in the URL</p>
+</div>
+
+<div class="card border-primary mb-4">
+    <div class="card-header bg-primary text-white">
+        <h3 class="card-title">Request Information</h3>
+    </div>
+    <div class="card-body">
+        <p><strong>HTTP Method:</strong> @ViewBag.Method</p>
+        <p><strong>Name Parameter:</strong> @ViewBag.Name</p>
+        <p><strong>ID Parameter:</strong> @ViewBag.Id</p>
+    </div>
+</div>
+
+<p>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Back to Demo Home</a>
+</p>
