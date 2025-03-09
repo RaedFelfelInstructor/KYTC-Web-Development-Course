@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1\\Demo_App\\",
+  "WorkspaceRootPath": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1 - Web Fundamentals and HTTP Protocol\\Demo_App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC3C20A6-522C-4ABB-9CAF-295A8009E033}|Demo_App.csproj|c:\\kytc\\developing internet applications\\materials\\chapter 1\\demo_app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC3C20A6-522C-4ABB-9CAF-295A8009E033}|Demo_App.csproj|c:\\kytc\\developing internet applications\\materials\\chapter 1 - web fundamentals and http protocol\\demo_app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC3C20A6-522C-4ABB-9CAF-295A8009E033}|Demo_App.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC3C20A6-522C-4ABB-9CAF-295A8009E033}|Demo_App.csproj|c:\\kytc\\developing internet applications\\materials\\chapter 1 - web fundamentals and http protocol\\demo_app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC3C20A6-522C-4ABB-9CAF-295A8009E033}|Demo_App.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC3C20A6-522C-4ABB-9CAF-295A8009E033}|Demo_App.csproj|c:\\kytc\\developing internet applications\\materials\\chapter 1 - web fundamentals and http protocol\\demo_app\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC3C20A6-522C-4ABB-9CAF-295A8009E033}|Demo_App.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 263,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1\\Demo_App\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1\\Demo_App\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAswFIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T09:06:24.963Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -52,6 +47,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1 - Web Fundamentals and HTTP Protocol\\Demo_App\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1 - Web Fundamentals and HTTP Protocol\\Demo_App\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T09:26:30.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1 - Web Fundamentals and HTTP Protocol\\Demo_App\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1 - Web Fundamentals and HTTP Protocol\\Demo_App\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T09:24:10.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1 - Web Fundamentals and HTTP Protocol\\Demo_App\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\KYTC\\Developing Internet Applications\\Materials\\Chapter 1 - Web Fundamentals and HTTP Protocol\\Demo_App\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T09:06:24.963Z",
+              "EditorCaption": ""
             }
           ]
         }
